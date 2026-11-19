@@ -369,3 +369,318 @@ margin-right: 80px;
     border-radius: 10px;
     border-color: #b9ff66;
 }
+
+
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+   ============================== */
+
+/* Tablet: 768px to 1024px */
+@media (max-width: 1024px) {
+
+    .navbar-nav {
+        gap: 12px;
+    }
+
+    .rightimg img {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .leftsection h1 {
+        font-size: 45px;
+    }
+
+    .leftsection p {
+        font-size: 18px;
+    }
+
+    .service-card {
+        padding: 30px;
+    }
+
+    .star-one {
+        height: auto;
+        padding: 25px;
+    }
+
+    .carousel-container {
+        padding: 40px 20px;
+    }
+
+    .inner-text {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 30px;
+    }
+
+    .img-contact {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Mobile: Up to 767px */
+@media (max-width: 767px) {
+
+    /* Navbar */
+    .navbar-nav {
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    /* Hero Section */
+    .leftsection {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .leftsection h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .leftsection p {
+        font-size: 16px;
+    }
+
+    .rightimg img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .btnleftsection {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Logo Section */
+    .logosection ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 15px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider img {
+        width: 110px;
+    }
+
+    /* Articles */
+    .txtartical {
+        flex-direction: column;
+        gap: 15px;
+        padding: 40px 15px;
+    }
+
+    .txtartical p {
+        font-size: 15px;
+    }
+
+    /* Services */
+    .service-card {
+        padding: 25px;
+        border-radius: 25px;
+        margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+        font-size: 22px;
+    }
+
+    /* Proposal */
+    .proposal-box {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .plft-section {
+        padding: 20px;
+    }
+
+    .proposal-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Frameimg {
+        transform: scale(1);
+    }
+
+    /* Case Studies */
+    .case-box {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    /* Accordion */
+    .accordion-item {
+        margin-bottom: 15px;
+    }
+
+    /* Team Section */
+    .star-one {
+        height: auto;
+        padding: 25px 20px;
+        margin-bottom: 15px;
+    }
+
+    .star-top {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .person-img {
+        width: 75px;
+    }
+
+    .social-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .button {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .card-button {
+        padding: 15px 30px;
+    }
+
+    /* Testimonials */
+    .carousel-container {
+        min-height: auto;
+        padding: 35px 15px;
+        border-radius: 25px;
+    }
+
+    .innerbox {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .inner-text {
+        width: 100%;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+
+    .testimonial-slide {
+        padding: 0 5px;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        padding: 25px 15px;
+        border-radius: 25px;
+    }
+
+    .img-contact {
+        width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+        padding: 15px;
+    }
+
+    /* Footer */
+    .container-footer {
+        padding: 30px 20px;
+        margin-top: 50px;
+        border-radius: 25px 25px 0 0;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .footerform {
+        width: 100%;
+        max-width: 100%;
+        max-height: none;
+        padding: 25px 15px;
+    }
+
+    .footerinput {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .footerbutton {
+        width: 100%;
+    }
+}
+
+
+/* Small Mobile: Up to 480px */
+@media (max-width: 480px) {
+
+    .leftsection h1 {
+        font-size: 32px;
+    }
+
+    .leftsection p {
+        font-size: 15px;
+    }
+
+    .heading,
+    .case-title {
+        font-size: 20px;
+    }
+
+    .service-card {
+        padding: 20px;
+    }
+
+    .star-one {
+        padding: 20px 15px;
+    }
+
+    .person-img {
+        width: 65px;
+    }
+
+    .carousel-container {
+        padding: 25px 10px;
+    }
+
+    .innerbox {
+        padding: 15px;
+    }
+
+    .container-footer {
+        padding: 25px 15px;
+    }
+}
